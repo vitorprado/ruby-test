@@ -1,6 +1,6 @@
 require 'net/http'
 
-class HomeController < ApplicationController
+class BrandsController < ApplicationController
   def index
     #search the make
     uri = URI("http://www.webmotors.com.br/carro/marcas")
