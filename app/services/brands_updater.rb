@@ -11,6 +11,6 @@ class BrandsUpdater
     WebmotorsFetcherService
       .fetch("marcas")
       .reject{ |item| saved_brands.include?(item["Nome"].downcase) }
-      .map{ |item| { webmotors_id: item["Id"], name: item["Nome"]} }
+      .map{ |item| { id: item["Id"], name: item["Nome"]} }
   end
 end
