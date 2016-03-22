@@ -1,3 +1,5 @@
+require 'net/http'
+
 class HomeController < ApplicationController
   def index
     #search the make
