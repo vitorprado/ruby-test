@@ -1,5 +1,5 @@
 <%= form_tag("/models", method: "GET") do %>
   <%= label_tag(:make, "Escolha a Fabricante:") %>
-  <%= collection_select :make, :make_id, @makes, :id, :name %>
+  <%= collection_select :make, :id, @brands, :id, :name %>
   <%= submit_tag("Buscar modelos") %>
 <% end %>
