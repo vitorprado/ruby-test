@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get "/" => "home#index", as: 'home'
-
-  get "/models" => "models#index"
+  get "/", to: 'brands#index', as: :home
+  resources(:brands, only: :index) do
+    resources :models, only: :index
+  end
 end
