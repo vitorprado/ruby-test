@@ -1,3 +1,5 @@
+require 'net/http'
+
 class WebmotorsFetcherService
 
   ENDPOINT = "http://www.webmotors.com.br/carro/"
