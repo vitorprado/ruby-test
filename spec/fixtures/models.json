@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1030,
+    "Nome": "AM 825",
+    "Count": 0,
+    "NomeAmigavel": "am-825"
+  },
+  {
+    "Id": 1050,
+    "Nome": "GALLOPER",
+    "Count": 0,
+    "NomeAmigavel": "galloper"
+  },
+  {
+    "Id": 2008,
+    "Nome": "HI-TOPIC",
+    "Count": 0,
+    "NomeAmigavel": "hi-topic"
+  },
+  {
+    "Id": 2009,
+    "Nome": "ROCSTA",
+    "Count": 0,
+    "NomeAmigavel": "rocsta"
+  },
+  {
+    "Id": 647,
+    "Nome": "TOPIC",
+    "Count": 0,
+    "NomeAmigavel": "topic"
+  },
+  {
+    "Id": 648,
+    "Nome": "TOWNER",
+    "Count": 0,
+    "NomeAmigavel": "towner"
+  }
+]
